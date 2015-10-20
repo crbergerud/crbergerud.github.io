@@ -1,0 +1,96 @@
+body { 
+	margin: 0px; /* always do this for complete control of layout*/
+}
+
+.container { 
+	width: 960px;
+	margin: 0 auto;
+	background: rgb(143,195,209); 
+}
+
+
+a { 
+	text-decoration: none; 
+	font-size: 24px; 
+	color: black; 
+	/*width: 30%*/
+}
+
+
+.sub-nav { 
+	display: inline-block;
+	vertical-align: top; 
+	margin-right: 35px;
+	/*float: right;*/
+}
+
+.nav-container { 
+	text-align: right;
+	padding-top: 45px;
+} 
+
+.content-container{ 
+	padding: 30px;
+	margin-top: 40px;
+}
+
+.content-left { 
+	display: inline-block;
+	vertical-align: top;	
+	width: 60%;
+	
+}
+
+.content-right { 
+	display: inline-block;
+	vertical-align: top;	
+	width: 30%;
+	background: rgb(186,223,233); 
+	padding: 10px;
+	font-size: 12px;
+
+}
+
+.images-container {
+	text-align: center;
+}
+
+.image { 
+	width: 30%; 
+	display: inline-block;
+	vertical-align: top;
+} 
+
+.footer-container {
+	width: 960px;
+	margin: 0 auto;
+	background: rgb(166,197,72); 
+	text-align: center;
+
+}
+
+.footer-left {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-center {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-right {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.links-footer { 
+	color: white;
+	font-size: 12px; 
+} 
+
+.titles-footer{ 
+	color: rgb(63,39,35);
+}
+
